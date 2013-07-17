@@ -15,4 +15,4 @@
 # Pick up overlay for features that depend on non-open-source files
 # DEVICE_PACKAGE_OVERLAYS := vendor/htc/marvel/overlay
 
-$(call inherit-product, vendor/qcom/msm7x27/qcom-vendor-blobs.mk)
+$(call inherit-product, vendor/htc/chacha/chacha-vendor-blobs.mk)
